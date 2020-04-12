@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tema pentru acasa Natanael Marian</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Natanael Marian 12 "C"</div>
+      <div class="list-group list-group-flush">
+        <a href="./index.html" class="list-group-item list-group-item-action bg-light">Acasă</a>
+        <a href="./coduri.html" class="list-group-item list-group-item-action bg-light">Coduri și sarcini</a>
+        <a href="./ex10p124.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 10</a>
+        <a href="./ex11p124.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 11</a>
+        <a href="./ex13p128.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 13</a>
+        <a href="./ex14p128.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 14</a>
+        <a href="./ex15ap128.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 15 a</a>
+        <a href="./ex15bp128.html" target="_blank" class="list-group-item list-group-item-action bg-light">Exercițiul 15 b</a>
+      </div>
+    </div>
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Afișați mai mult</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="container-fluid">
+        <h1 class="mt-4">Aceasta este tema pentru acasă</h1>
+        <p>Bună ziua domnul Stas, eu sunt Natanael</p>
+        <p>Restul itemilor i-am făcut cum s-a cerut în carte, dar aici mi-am permis să fiu puțin mai creativ și am folosit un template mai complicat</p>
+        <p>La restul itemilor(îi puteți vedea pe bara din stânga sau să apăsați pe butonul <code>Afișați mai mult</code> de mai sus) am făcut cum s-au cerut, dar mai jos, am adăugat niște screenshot-uri cu tema necesară și codul pe care l-am scris</p>
+        <p>Totodată acolo puteți vedea și o pagină aparte cu coduri, dar și cu sarcinile din carte</p>
+        <p>Pentru o experiență cât mai autentică, când veți deschide linku-rile din partea stângă ele se vor deschide în pagini noi</p>
+        <p>Dacă ați terminat de evaluat lucrarea, vă mulțumesc pentru timpul acordat și vă rog să apăsați <a href="https://studii.md/">aici<a>, și să puneți nota de 10</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+</body>
+</html>
